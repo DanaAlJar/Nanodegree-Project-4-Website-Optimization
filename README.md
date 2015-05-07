@@ -1,3 +1,62 @@
+Welcome to Website Performance Optimization portfolio project
+=============================================================
+
+The goal was to optimize a given website so that each page reaches a page speed of at least 90 measured with Page Speed Insights.
+
+
+Original Page
+=============
+click <a href="http://ayannone.github.io/Nanodegree-Project-4-Website-Optimization-Original/">here</a>
+
+Original Page Speed (of 100)
+----------------------------
+(the numbers can varies slightly dependent on the network connection)
+
+Mobile / Desktop
+
+index.html            28 / 30
+project-2048.html     75 / 88
+project-webperf.html  75 / 88
+project-mobile.html   75 / 88
+pizza.html            66 / 30
+
+
+Page Speed Insight (Test it yourself)
+-------------------------------------
+<a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fayannone.github.io%2FNanodegree-Project-4-Website-Optimization-Original%2Fviews%2Findex.html">index.html</a>
+<a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fayannone.github.io%2FNanodegree-Project-4-Website-Optimization-Original%2Fviews%2Fproject-2048.html">project-2048.html</a>
+<a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fayannone.github.io%2FNanodegree-Project-4-Website-Optimization-Original%2Fviews%2Fproject-webperf.html">project-webperf.html</a>
+<a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fayannone.github.io%2FNanodegree-Project-4-Website-Optimization-Original%2Fviews%2Fproject-mobile.html">project-mobile.html</a>
+<a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fayannone.github.io%2FNanodegree-Project-4-Website-Optimization-Original%2Fviews%2Fpizza.html">pizza.html</a>
+
+
+Optimized Page
+==============
+click <a href="https://ayannone.github.io/Nanodegree-Project-4-Website-Optimization/">here</a>
+
+Original Page Speed (of 100)
+----------------------------
+(the numbers can varies slightly dependent on the network connection)
+
+Mobile / Desktop
+
+index.html            94 / 95
+project-2048.html     92 / 94
+project-webperf.html  94 / 95
+project-mobile.html   94 / 94
+pizza.html            86 / 92  (not done optimizing yet)
+
+
+Page Speed Insight (Test it yourself)
+-------------------------------------
+<a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fayannone.github.io%2FNanodegree-Project-4-Website-Optimization%2Fviews%2Findex.html">index.html</a>
+<a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fayannone.github.io%2FNanodegree-Project-4-Website-Optimization%2Fviews%2Fproject-2048.html">project-2048.html</a>
+<a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fayannone.github.io%2FNanodegree-Project-4-Website-Optimization%2Fviews%2Fproject-webperf.html">project-webperf.html</a>
+<a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fayannone.github.io%2FNanodegree-Project-4-Website-Optimization%2Fviews%2Fproject-mobile.html">project-mobile.html</a>
+<a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fayannone.github.io%2FNanodegree-Project-4-Website-Optimization%2Fviews%2Fpizza.html">pizza.html</a>
+
+
+
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
@@ -32,7 +91,7 @@ Profile, optimize, measure... and then lather, rinse, and repeat. Good luck!
 
 ####Part 2: Optimize Frames per Second in pizza.html
 
-To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js. 
+To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js.
 
 You might find the FPS Counter/HUD Display useful in Chrome developer tools described here: [Chrome Dev Tools tips-and-tricks](https://developer.chrome.com/devtools/docs/tips-and-tricks).
 
