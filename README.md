@@ -10,7 +10,7 @@ click <a href="http://ayannone.github.io/Nanodegree-Project-4-Website-Optimizati
 
 ###Original Page Speed (of 100)
 
-(the numbers can varies slightly dependent on the network connection)
+(the numbers can vary slightly dependent on the network connection)
 
 Mobile / Desktop
 
@@ -21,22 +21,13 @@ Mobile / Desktop
 * pizza.html            66 / 30
 
 
-####Page Speed Insight (Test it yourself)
-
-* <a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fayannone.github.io%2FNanodegree-Project-4-Website-Optimization-Original%2Fviews%2Findex.html">index.html</a>
-* <a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fayannone.github.io%2FNanodegree-Project-4-Website-Optimization-Original%2Fviews%2Fproject-2048.html">project-2048.html</a>
-* <a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fayannone.github.io%2FNanodegree-Project-4-Website-Optimization-Original%2Fviews%2Fproject-webperf.html">project-webperf.html</a>
-* <a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fayannone.github.io%2FNanodegree-Project-4-Website-Optimization-Original%2Fviews%2Fproject-mobile.html">project-mobile.html</a>
-* <a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fayannone.github.io%2FNanodegree-Project-4-Website-Optimization-Original%2Fviews%2Fpizza.html">pizza.html</a>
-
-
 Optimized Page
 ==============
 click <a href="https://ayannone.github.io/Nanodegree-Project-4-Website-Optimization/">here</a>
 
 ###Original Page Speed (of 100)
 
-(the numbers can varies slightly dependent on the network connection)
+(the numbers can vary slightly dependent on the network connection)
 
 Mobile / Desktop
 
@@ -45,15 +36,6 @@ Mobile / Desktop
 * project-webperf.html  94 / 95
 * project-mobile.html   94 / 94
 * pizza.html            86 / 92  (not done optimizing yet)
-
-
-####Page Speed Insight (Test it yourself)
-
-* <a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fayannone.github.io%2FNanodegree-Project-4-Website-Optimization%2Fviews%2Findex.html">index.html</a>
-* <a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fayannone.github.io%2FNanodegree-Project-4-Website-Optimization%2Fviews%2Fproject-2048.html">project-2048.html</a>
-* <a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fayannone.github.io%2FNanodegree-Project-4-Website-Optimization%2Fviews%2Fproject-webperf.html">project-webperf.html</a>
-* <a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fayannone.github.io%2FNanodegree-Project-4-Website-Optimization%2Fviews%2Fproject-mobile.html">project-mobile.html</a>
-* <a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fayannone.github.io%2FNanodegree-Project-4-Website-Optimization%2Fviews%2Fpizza.html">pizza.html</a>
 
 
 
