@@ -31,11 +31,11 @@ click <a href="https://ayannone.github.io/Nanodegree-Project-4-Website-Optimizat
 
 Mobile / Desktop
 
-* index.html            94 / 95
-* project-2048.html     92 / 94
-* project-webperf.html  94 / 95
-* project-mobile.html   94 / 94
-* pizza.html            86 / 92  (not done optimizing yet)
+* index.html            94 / 96
+* project-2048.html     95 / 96
+* project-webperf.html  95 / 96
+* project-mobile.html   95 / 96
+* pizza.html            95 / 95
 
 
 
