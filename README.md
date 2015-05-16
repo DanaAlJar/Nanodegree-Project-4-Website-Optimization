@@ -35,8 +35,14 @@ Mobile / Desktop
 * project-2048.html     95 / 96
 * project-webperf.html  95 / 96
 * project-mobile.html   95 / 96
-* pizza.html            95 / 95
+* pizza.html            92 / 93
 
+
+Optimizations made in main.js for pizza.html
+=============================================
+- replaced querySelectorAll with getElementsByClassName for better performance
+- moved "document.body.scrollTop / 1250" outside the for loop
+- reduced the amount of animated pizzas from 200 to 20
 
 
 MORE INFORMATION ABOUT WEBSITE PERFORMANCE

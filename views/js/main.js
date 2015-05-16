@@ -450,6 +450,7 @@ var resizePizzas = function(size) {
 
   // Iterates through pizza elements on the page and changes their widths
   function changePizzaSizes(size) {
+    // >>> replaced querySelectorAll with getElementsByClassName for better performance
     for (var i = 0; i < document.getElementsByClassName("randomPizzaContainer").length; i++) {
       var dx = determineDx(document.getElementsByClassName("randomPizzaContainer")[i], size);
       var newwidth = (document.getElementsByClassName("randomPizzaContainer")[i].offsetWidth + dx) + 'px';
@@ -502,12 +503,18 @@ function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
 
+  // >>> scrollTop property sets or returns the number of pixels
+  // >>> the body has been scrolled vertically; since this is a
+  // >>> static calculated value it doesn't need to be recalculated
+  // >>> every time in the for loop (which slowed the render process down!)
   var startP = document.body.scrollTop / 1250;
 
+  // >>> replaced querySelectorAll with getElementsByClassName for better performance
   var items = document.getElementsByClassName('mover');
   for (var i = 0; i < items.length; i++) {
+    // >>> calculation of startP outside the loop for better performance!
     var phase = Math.sin(startP + (i % 5));
-    items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
+    items[i].style.left = items[i].basicLeft + 100 * phase +"px";
   }
 
   // User Timing API to the rescue again. Seriously, it's worth learning.
@@ -527,6 +534,8 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
+// >>> reduced the amount of animated pizzas from 200 to 20,
+// >>> which is the max amount visible on the webpage
   for (var i = 0; i < 20; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
