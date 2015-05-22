@@ -43,6 +43,7 @@ Optimizations made in main.js for pizza.html
 - replaced querySelectorAll with getElementsByClassName for better performance
 - moved "document.body.scrollTop / 1250" outside the for loop
 - reduced the amount of animated pizzas from 200 to 20
+- moved  calculation of "dx" and "newwidth" outside the for loop in function "changePizzaSizes" and assigned all the elements from "document.getElementsByClassName("randomPizzaContainer")"" to a variable "pizzaContainers"
 
 
 MORE INFORMATION ABOUT WEBSITE PERFORMANCE
