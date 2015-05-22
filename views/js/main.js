@@ -424,7 +424,7 @@ var resizePizzas = function(size) {
   // Returns the size difference to change a pizza element from one size to another. Called by changePizzaSlices(size).
   function determineDx (elem, size) {
     var oldwidth = elem.offsetWidth;
-    var windowwidth = document.querySelector("#randomPizzas").offsetWidth;
+    var windowwidth = document.getElementById("randomPizzas").offsetWidth;
     var oldsize = oldwidth / windowwidth;
 
     // TODO: change to 3 sizes? no more xl?
@@ -535,8 +535,24 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
-// >>> reduced the amount of animated pizzas from 200 to 20,
-// >>> which is the max amount visible on the webpage
+// >>> reduced the amount of animated pizzas dynamically dependent on window width
+// >>> and related to Bootstrap device width for xs, sm, md and lg screens
+
+  console.log(window.innerWidth);
+
+  var numPizzas = 0;
+  var windowInnerWidth = window.innerWidth;
+  if (windowInnerWidth >= 1200) {
+    numPizzas = 40;
+  } else if (windowInnerWidth >= 992){
+    numPizzas = 32;
+  } else if (windowInnerWidth >= 768) {
+    numPizzas = 24;
+  } else {
+    numPizzas = 16;
+  }
+  console.log(numPizzas);
+
   for (var i = 0; i < 20; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
@@ -545,7 +561,7 @@ document.addEventListener('DOMContentLoaded', function() {
     elem.style.width = "73.333px";
     elem.basicLeft = (i % cols) * s;
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
-    document.querySelector("#movingPizzas1").appendChild(elem);
+    document.getElementById("movingPizzas1").appendChild(elem);
   }
   updatePositions();
 });
