@@ -543,11 +543,11 @@ document.addEventListener('DOMContentLoaded', function() {
   var numPizzas = 0;
   var windowInnerWidth = window.innerWidth;
   if (windowInnerWidth >= 1200) {
-    numPizzas = 40;
+    numPizzas = 64;
   } else if (windowInnerWidth >= 992){
-    numPizzas = 32;
+    numPizzas = 48;
   } else if (windowInnerWidth >= 768) {
-    numPizzas = 24;
+    numPizzas = 32;
   } else {
     numPizzas = 16;
   }
